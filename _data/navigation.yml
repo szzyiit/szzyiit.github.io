@@ -1,12 +1,29 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "技术趋势"
+    url: /techs/01-AI/
+
+  - title: "经济趋势"
+    url: /econs/01-new_econ/
+
+  - title: "业务体系"
+    url: /what-we-do/
+
+  - title: "教程"
+    url: http://wanwu.tech/
+
+  - title: "关于我们"
+    url: /about/
+
+  - title: "Sitemap"
+    url: /sitemap/
+
+
+# documentation links
+techs:
+  - title: 人工智能
+    children:
+      - title: "人工智能"
+        url: /techs/01-AI/
+      - title: "机器学习"
+        url: /techs/02-ML/

@@ -15,143 +15,143 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "zh"
+title                    : &name "深圳市兆阳信息技术研究院"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : *name
+description              : &description "本研究院整合各方力量，搭建研究与实践平台，开展信息技术研究、促进社会进步，旨在进一步探索信息技术技术前沿，提升信息技术应用的深度和广度，让信息技术技术为社会生产和人民生活做贡献。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : "assets/images/500x300AI.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+logo                     : "assets/images/logo88X88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : &name # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+# comments:
+#   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+#   disqus:
+#     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+#   discourse:
+#     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#   facebook:
+#     # https://developers.facebook.com/docs/plugins/comments
+#     appid                :
+#     num_posts            : # 5 (default)
+#     colorscheme          : # "light" (default), "dark"
+#   utterances:
+#     theme                : # "github-light" (default), "github-dark"
+#     issue_term           : # "pathname" (default)
+# staticman:
+#   allowedFields          : # ['name', 'email', 'url', 'message']
+#   branch                 : # "master"
+#   commitMessage          : # "New comment by {fields.name}"
+#   filename               : # comment-{@timestamp}
+#   format                 : # "yml"
+#   moderation             : # true
+#   path                   : # "/_data/comments/{options.slug}" (default)
+#   requiredFields         : # ['name', 'email', 'message']
+#   transforms:
+#     email                : # "md5"
+#   generatedFields:
+#     date:
+#       type               : # "date"
+#       options:
+#         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+#   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+# reCaptcha:
+#   siteKey                :
+#   secret                 :
+# atom_feed:
+#   path                   : # blank (default) uses feed.xml
+# search                   : # true, false (default)
+# search_full_content      : # true, false (default)
+# search_provider          : # lunr (default), algolia, google
+# algolia:
+#   application_id         : # YOUR_APPLICATION_ID
+#   index_name             : # YOUR_INDEX_NAME
+#   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+#   powered_by             : # true (default), false
+# google:
+#   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+#   instant_search         : # false (default), true
+# # SEO Related
+# google_site_verification :
+# bing_site_verification   :
+# yandex_site_verification :
+# naver_site_verification  :
 
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+# # Social Sharing
+# twitter:
+#   username               :
+# facebook:
+#   username               :
+#   app_id                 :
+#   publisher              :
+# og_image                 : # Open Graph/Twitter default site image
+# # For specifying social profiles
+# # - https://developers.google.com/structured-data/customize/social-profiles
+# social:
+#   type                   : # Person or Organization (defaults to Person)
+#   name                   : # If the user or organization name differs from the site's name
+#   links: # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+# # Analytics
+# analytics:
+#   provider               : false # false (default), "google", "google-universal", "custom"
+#   google:
+#     tracking_id          :
+#     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : &name
+  avatar           : "/assets/images/weixin.png"
+  bio              : &short "人工智能，大数据，新时代，新技术，新经济"
+  location         : "深圳"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: mailto:gengy@zhaoyang.org.cn
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   # url: "https://your-website.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url: "https://facebook.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   # url: "https://github.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url:
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url:
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   # url:
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   # url:
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   # url:
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url:
 
 
 # Reading Files
@@ -216,6 +216,17 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Collections
+collections:
+  eras:
+    output: true
+    permalink: /:collection/:path/
+  techs:
+    output: true
+    permalink: /:collection/:path/
+  econs:
+    output: true
+    permalink: /:collection/:path/
 
 # Outputting
 permalink: /:categories/:title/
@@ -293,3 +304,27 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _tech
+  - scope:
+      path: ""
+      type: techs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "techs"
+  # _econs
+  - scope:
+      path: ""
+      type: econs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "econs"
